@@ -10,6 +10,11 @@ namespace LabPractical1
     {
         static void Main(string[] args)
         {
+            string mynumber = "";
+            Console.WriteLine($"Please enter a number");
+            mynumber = Console.ReadLine();
+            Console.WriteLine($"The number you entered was {mynumber}");
+            Console.ReadKey();
         }
     }
 }
