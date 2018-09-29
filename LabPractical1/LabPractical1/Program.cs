@@ -14,7 +14,7 @@ namespace LabPractical1
             Console.WriteLine($"Please enter a number");
             mynumber = Console.ReadLine();
             Console.WriteLine($"The number you entered was {mynumber}");
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
